@@ -1,4 +1,4 @@
-# Offline Knowledge Distillation for Video Summarization
+# Understanding Cross-Task Distillation in Video Summarization
 
 A frozen, query-conditioned teacher ([UniVTG](https://github.com/showlab/UniVTG), CLIP ViT-B/32) is run once on SumMe and TVSum and its scores are saved to disk. A small query-free Transformer student is then trained on the standard GoogLeNet features, using the ground-truth scores plus the saved teacher scores.
 
