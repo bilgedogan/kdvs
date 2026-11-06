@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.1.2
+torchvision==0.16.2
+numpy==1.26.4
+scipy==1.15.3
+h5py==3.16.0
+pandas==2.3.3
+tqdm
+# UniVTG / CLIP feature extraction (only needed for extract_teacher_feats.py)
+ftfy
+regex
+ffmpeg-python==0.2.0
+pillow

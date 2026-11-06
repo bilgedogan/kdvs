@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+
+# large or third-party files, see README
+third_party/
+checkpoints/
+Videos/SumMe/
+Videos/TVSum/
+dataset/*.h5
+dataset/*.tsv
+results/
+UniVTG
+third_party
+analysis/
+paper/
+configs/
+SumMe/
+TVSum/
+
